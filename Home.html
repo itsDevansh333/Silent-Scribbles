@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Silent Scribbles</title>
+<style>
+	html{
+		background-color: black;
+	}
+	.superContainer{
+		display: flex;
+		justify-content: center;
+		height: 100%
+	}
+	.Container1{
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		height: 100px;
+		width: 200px;
+		background-color: purple;
+		color:yellow;
+		opacity: 0.5;
+		
+	}
+</style>
+</head>
+<body>
+	<div class="superContainer">
+	<div class="Container1">
+		<form action="Choice" method="post">
+			<input type="radio" name="Page" value="Fetch">Fetch<br>
+			<input type="radio" name="Page" value="Write">Write<br>
+			<button type="submit">Next</button>
+		</form>
+	</div>
+	</div>
+</body>
+</html>
